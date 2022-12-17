@@ -13,11 +13,11 @@ jobs:
       - run:
           name: Restore 
           command: dotnet restore
-          working_directory: TestExam\TestExam
+          working_directory: Test_Backend\
       - run:
           name: Build
           command: dotnet build -c Release
-          working_directory: TestExam\TestExam
+          working_directory: Test_Backend\
   build:
     description: Build application with Release configuration
     executor:

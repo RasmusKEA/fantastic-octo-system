@@ -20,7 +20,7 @@ public interface IReviewService
 public class ReviewService : IReviewService
 {
     private readonly IConfiguration _configuration;
-    private readonly string _connectionString = "Server=localhost;Database=rategame;Username=user;Password=password";
+    private readonly string _connectionString = "Server=34.163.43.126;Database=rategame;Username=root;Password=password";
 
     public ReviewService()
     {

@@ -25,7 +25,7 @@ public interface IUserService
 public class UserService : IUserService
 {
     private readonly IConfiguration _configuration = null!;
-    private readonly string _connectionString = "Server=localhost;Database=rategame;Username=user;Password=password";
+    private readonly string _connectionString = "Server=34.163.43.126;Database=rategame;Username=root;Password=password";
     
     public UserService()
     {
